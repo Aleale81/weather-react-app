@@ -17,7 +17,7 @@ let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&ap
             <h2>Hello from {props.city}</h2>
              <Loader
         type="BallTriangle"
-        color= "gold"
+        color= "red"
         height={100}
         width={100}
         timeout={3000} 
